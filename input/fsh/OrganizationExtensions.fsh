@@ -1,6 +1,6 @@
 Extension: OrganizationBrandLogo
 Id:        organization-brand-logo
-Title:     "organization-brand-logo"
+Title:     "Organization Brand Logo"
 Description: "The Organization-level Patient Access Brand Logo."
 * insert StructureJurisdiction
 * insert ExtensionContext(Organization)
@@ -28,7 +28,7 @@ Description: "The Organization-level Patient Access Brand Logo."
 
 Extension: OrganizationPortal
 Id:        organization-portal
-Title:     "organization-portal"
+Title:     "Organization Portal"
 Description: "The Organization-level portal information for a Patient Access Brand."
 * insert StructureJurisdiction
 * insert ExtensionContext(Organization)

@@ -1,6 +1,6 @@
 Extension: EndpointFhirVersion
 Id:        endpoint-fhir-version
-Title:     "endpoint-fhir-version"
+Title:     "Endpoint FHIR Version"
 Description: "The Patient Access Endpoint's FHIR Version. This Extension is a denormalization to help clients focus on supported endpoints."
 * insert StructureJurisdiction
 * insert ExtensionContext(Endpoint)
@@ -23,7 +23,7 @@ Description: "The Patient Access Endpoint's FHIR Version. This Extension is a de
 // Endpoint Brand info
 Extension: EndpointBrand
 Id:        endpoint-brand
-Title:     "endpoint-brand"
+Title:     "Endpoint Brand"
 Description: "The Patient Access Endpoint's Brand. This extension is used to advertise the brand information location for an endpoint."
 * insert StructureJurisdiction
 * insert ExtensionContext(Endpoint.managingOrganization)
