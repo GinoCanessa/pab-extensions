@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ciUrl="" defaultVersion="current" defaultWorkgroup="fhir-i" url="http://hl7.org/fhir/uv/pab-extensions-temp">
+<version code="current" url=""/>
+<artifactPageExtension value="-definitions"/>
+<artifactPageExtension value="-examples"/>
+<artifactPageExtension value="-mappings"/>
+<artifact id="CodeSystem/endpoint-brand-type-code-system" key="CodeSystem-endpoint-brand-type-code-system" name="Endpoint Brand Type Code System"/>
+<artifact id="ValueSet/endpoint-brand-type-value-set" key="ValueSet-endpoint-brand-type-value-set" name="Endpoint Brand Type Value Set"/>
+<artifact id="StructureDefinition/endpoint-brand" key="StructureDefinition-endpoint-brand" name="endpoint-brand"/>
+<artifact id="StructureDefinition/endpoint-fhir-version" key="StructureDefinition-endpoint-fhir-version" name="endpoint-fhir-version"/>
+<artifact id="StructureDefinition/organization-brand-logo" key="StructureDefinition-organization-brand-logo" name="organization-brand-logo"/>
+<artifact id="StructureDefinition/organization-portal" key="StructureDefinition-organization-portal" name="organization-portal"/>
+<page key="NA" name="(NA)"/>
+<page key="many" name="(many)"/>
+<page key="artifacts" name="Artifacts Summary"/>
+<page key="downloads" name="Downloads"/>
+<page key="index" name="Home"/>
+<page key="toc" name="Table of Contents"/>
+</specification>

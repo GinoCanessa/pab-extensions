@@ -1,0 +1,86 @@
+# ╭────────────────────────────────────────────────────────────────────────────────────────────────╮
+# │  ACTION REQUIRED: REVIEW AND EDIT THIS FILE TO ENSURE IT ACCURATELY REFLECTS YOUR PROJECT!     │
+# │                                                                                                │
+# │  This file was generated from your existing project files and will be used for SUSHI           │
+# │  configuration from now on. You may delete your package.json as it is no longer needed.        │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+# ╭──────────────-────ImplementationGuide-hl7.fhir.uv.pab-extensions-temp.json──────--─────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. For a list of       │
+# │  supported properties, see:                                                                    │
+# │  http://build.fhir.org/ig/HL7/fhir-shorthand/branches/beta/sushi.html#ig-development           │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+id: hl7.fhir.uv.pab-extensions-temp
+canonical: http://hl7.org/fhir/uv/pab-extensions-temp
+version: 1.1.0
+name: PatientAccessBrandsExtensions
+title: "Temp repo for building PAB extensions"
+status: draft
+publisher:
+  name: HL7 FHIR Infrastructure WG
+  url: https://hl7.org/Special/committees/fiwg
+contact:
+  - name: Gino Canessa
+    telecom:
+      - system: email
+        value: mailto:gino.canessa@microsoft.com
+description: Temp guide to work on Patient Access Brands extension definitions
+license: CC0-1.0
+fhirVersion: 4.0.1
+parameters:
+  show-inherited-invariants: false
+  usage-stats-opt-out: true
+  shownav: 'true'
+copyrightYear: 2020+
+releaseLabel: Standard for Trial Use
+jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World"
+
+
+# The dependencies property corresponds to IG.dependsOn. The key is the
+# package id and the value is the version (or dev/current). For advanced
+# use cases, the value can be an object with keys for id, uri, and version.
+#
+#dependencies:
+
+
+#
+# The pages property corresponds to IG.definition.page. SUSHI can
+# auto-generate the page list, but if the author includes pages in
+# this file, it is assumed that the author will fully manage the
+# pages section and SUSHI will not generate any page entries.
+# The page file name is used as the key. If title is not provided,
+# then the title will be generated from the file name.  If a
+# generation value is not provided, it will be inferred from the
+# file name extension.  Any sub-properties that are valid filenames
+# with supported extensions (e.g., .md/.xml) will be treated as
+# sub-pages.
+#
+pages:
+  index.md:
+    title: Home
+  downloads.md:
+    title: Downloads
+
+# ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
+# │  To use a provided ig-data/input/includes/menu.xml file, delete the "menu" property below.     │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+menu:
+  Contents: toc.html
+  Home: index.html
+  Artifacts:
+    Extensions: artifacts.html#1
+    Value Sets: artifacts.html#2
+    Examples: artifacts.html#3
+  Support:
+    Downloads: downloads.html
+
+
+# ╭───────────────────────────────────────package-list.json────────────────────────────────────────╮
+# │  To use a provided ig-data/package-list.json file, delete the "history" property below.        │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+# ╭─────────────────────────────────────────────ig.ini─────────────────────────────────────────────╮
+# │  To control the ig.ini using this config, uncomment and set the "template" property.           │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+# template: hl7.fhir.template
+# template: fhir.base.template
