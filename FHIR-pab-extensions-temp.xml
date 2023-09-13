@@ -5,9 +5,6 @@
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
 <artifact id="Endpoint/abc-endpoint-01" key="Endpoint-abc-endpoint-01" name="Endpoint 01 of Brand ABC"/>
-<artifact id="StructureDefinition/endpoint-brand" key="StructureDefinition-endpoint-brand" name="Endpoint Brand"/>
-<artifact id="CodeSystem/endpoint-brand-type-code-system" key="CodeSystem-endpoint-brand-type-code-system" name="Endpoint Brand Type Code System"/>
-<artifact id="ValueSet/endpoint-brand-type-value-set" key="ValueSet-endpoint-brand-type-value-set" name="Endpoint Brand Type Value Set"/>
 <artifact id="StructureDefinition/endpoint-fhir-version" key="StructureDefinition-endpoint-fhir-version" name="Endpoint FHIR Version"/>
 <artifact id="Organization/abc" key="Organization-abc" name="Organization ABC with Branding"/>
 <artifact id="StructureDefinition/organization-brand-logo" key="StructureDefinition-organization-brand-logo" name="Organization Brand Logo"/>

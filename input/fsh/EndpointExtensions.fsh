@@ -19,43 +19,43 @@ Description: "The Patient Access Endpoint's FHIR Version. This Extension is a de
 
 /// Based on NDH - do we need dynamic registration / trust framework info?
 
+/// Removed endpoint brand info - aligning with recent changes to the spec
+// // Endpoint Brand info
+// Extension: EndpointBrand
+// Id:        endpoint-brand
+// Title:     "Endpoint Brand"
+// Description: "The Patient Access Endpoint's Brand. This extension is used to advertise the brand information location for an endpoint."
+// * insert StructureJurisdiction
+// * insert ExtensionContext(Endpoint.managingOrganization)
+// * extension contains
+//     brandType 1..1 MS and
+//     url 1..1 MS
+// * extension[brandType].value[x] only Coding
+// * extension[brandType].valueCoding from EndpointBrandTypeValueSet (example)
+// * extension[url].value[x] only url
+// * insert ExtensionDefinition(
+//     brandType,
+//     "Brand Type",
+//     "Information used by clients to determine what kind of brand information this endpoint provides.")
+// * insert ExtensionDefinition(
+//     url,
+//     "URL",
+//     "URL used to retrieve brand information.")
 
-// Endpoint Brand info
-Extension: EndpointBrand
-Id:        endpoint-brand
-Title:     "Endpoint Brand"
-Description: "The Patient Access Endpoint's Brand. This extension is used to advertise the brand information location for an endpoint."
-* insert StructureJurisdiction
-* insert ExtensionContext(Endpoint.managingOrganization)
-* extension contains
-    brandType 1..1 MS and
-    url 1..1 MS
-* extension[brandType].value[x] only Coding
-* extension[brandType].valueCoding from EndpointBrandTypeValueSet (example)
-* extension[url].value[x] only url
-* insert ExtensionDefinition(
-    brandType,
-    "Brand Type",
-    "Information used by clients to determine what kind of brand information this endpoint provides.")
-* insert ExtensionDefinition(
-    url,
-    "URL",
-    "URL used to retrieve brand information.")
 
+// CodeSystem:  EndpointBrandTypeCodeSystem
+// Id:          endpoint-brand-type-code-system
+// Title:       "Endpoint Brand Type Code System"
+// Description: "The Patient Access Endpoint's Brand Type. This Code System is a denormalization to help clients focus on supported endpoints."
+// * insert StructureJurisdiction
+// * ^caseSensitive  = true
+// * ^experimental   = false
+// * #smart-pab     "SMART Patient Access Brands"  "Branding information is available as a SMART Patient Access Brands Bundle."
 
-CodeSystem:  EndpointBrandTypeCodeSystem
-Id:          endpoint-brand-type-code-system
-Title:       "Endpoint Brand Type Code System"
-Description: "The Patient Access Endpoint's Brand Type. This Code System is a denormalization to help clients focus on supported endpoints."
-* insert StructureJurisdiction
-* ^caseSensitive  = true
-* ^experimental   = false
-* #smart-pab     "SMART Patient Access Brands"  "Branding information is available as a SMART Patient Access Brands Bundle."
-
-ValueSet:    EndpointBrandTypeValueSet
-Id:          endpoint-brand-type-value-set
-Title:       "Endpoint Brand Type Value Set"
-Description: "The Patient Access Endpoint's Brand Type. This Value Set is a denormalization to help clients focus on supported endpoints."
-* insert StructureJurisdiction
-* ^experimental   = false
-* codes from system EndpointBrandTypeCodeSystem
+// ValueSet:    EndpointBrandTypeValueSet
+// Id:          endpoint-brand-type-value-set
+// Title:       "Endpoint Brand Type Value Set"
+// Description: "The Patient Access Endpoint's Brand Type. This Value Set is a denormalization to help clients focus on supported endpoints."
+// * insert StructureJurisdiction
+// * ^experimental   = false
+// * codes from system EndpointBrandTypeCodeSystem

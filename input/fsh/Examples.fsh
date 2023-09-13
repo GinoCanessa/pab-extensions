@@ -63,11 +63,11 @@ Description: "Endpoint example containing brand information"
 * connectionType = $endpoint-connection-type#hl7-fhir-rest
 * name = "FHIR R4 Endpoint for Brand ABC"
 * managingOrganization = Reference(Organization/abc)
-* managingOrganization.extension[0].url = $ext-endpoint-brand
-* managingOrganization.extension[=].extension[0].url = "brandType"
-* managingOrganization.extension[=].extension[=].valueCoding = $brand-type#smart-pab
-* managingOrganization.extension[=].extension[+].url = "url"
-* managingOrganization.extension[=].extension[=].valueUrl = "https://example.org/abc.org/ProdFHIR/api/FHIR/R4/Bundle/branding"
+// * managingOrganization.extension[0].url = $ext-endpoint-brand
+// * managingOrganization.extension[=].extension[0].url = "brandType"
+// * managingOrganization.extension[=].extension[=].valueCoding = $brand-type#smart-pab
+// * managingOrganization.extension[=].extension[+].url = "url"
+// * managingOrganization.extension[=].extension[=].valueUrl = "https://example.org/abc.org/ProdFHIR/api/FHIR/R4/Bundle/branding"
 * contact.system = #url
 * contact.value = "https://example.org/abc.org/contact/person"
 * payloadType = $endpoint-payload-type#none
