@@ -67,10 +67,7 @@ pages:
 menu:
   Contents: toc.html
   Home: index.html
-  Artifacts:
-    Extensions: artifacts.html#1
-    Value Sets: artifacts.html#2
-    Examples: artifacts.html#3
+  Artifacts: artifacts.html
   Support:
     Downloads: downloads.html
 

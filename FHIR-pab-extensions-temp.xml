@@ -4,11 +4,14 @@
 <artifactPageExtension value="-definitions"/>
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
-<artifact id="Endpoint/abc-endpoint-01" key="Endpoint-abc-endpoint-01" name="Endpoint 01 of Brand ABC"/>
+<artifact id="Endpoint/abc-portal" key="Endpoint-abc-portal" name="ABC Portal"/>
 <artifact id="StructureDefinition/endpoint-fhir-version" key="StructureDefinition-endpoint-fhir-version" name="Endpoint FHIR Version"/>
+<artifact id="Endpoint/abc-fhir-endpoint-r4" key="Endpoint-abc-fhir-endpoint-r4" name="FHIR R4 Endpoint of Brand ABC"/>
 <artifact id="Organization/abc" key="Organization-abc" name="Organization ABC with Branding"/>
-<artifact id="StructureDefinition/organization-brand-logo" key="StructureDefinition-organization-brand-logo" name="Organization Brand Logo"/>
+<artifact id="StructureDefinition/organization-brand" key="StructureDefinition-organization-brand" name="Organization Brand"/>
 <artifact id="StructureDefinition/organization-portal" key="StructureDefinition-organization-portal" name="Organization Portal"/>
+<artifact id="StructureDefinition/organization-portal-endpoint" key="StructureDefinition-organization-portal-endpoint" name="Organization Portal Endpoint"/>
+<artifact id="Organization/abc-endpoint" key="Organization-abc-endpoint" name="Organization with Branding inserted into endpoint"/>
 <page key="NA" name="(NA)"/>
 <page key="many" name="(many)"/>
 <page key="artifacts" name="Artifacts Summary"/>
